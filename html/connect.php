@@ -6,7 +6,17 @@
 <h1>
 Person Counter
 </h1>
-
+<style>
+div {
+	background-color: lightgrey;
+	width: 60px;
+	border: 15px;
+	padding: 50px;
+	margin: 20px;
+}
+</style>
+</head>
+<div>
 <?php
 # This code block connects to the database server
 $servername = "Right";
@@ -55,12 +65,12 @@ echo "Current Count: ";
 echo $curr;  
 # Having the count output here updates it after user presses a button
 ?>
+</div>
 
 <form method="post">
 	<input type="submit" name="Increase" value="Increase"/>
 	<input type="submit" name="Decrease" value="Decrease"/>
 	<input type="submit" name="Reset" value="Reset"/>
 </form>
-</head>
 </html>
 
