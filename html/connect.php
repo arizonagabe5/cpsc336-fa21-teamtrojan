@@ -59,7 +59,7 @@ echo $curr;
 <form method="post">
 	<input type="submit" name="Increase" value="Increase"/>
 	<input type="submit" name="Decrease" value="Decrease"/>
-	<input type="submit" name="Reset" value="Resert"/>
+	<input type="submit" name="Reset" value="Reset"/>
 </form>
 </head>
 </html>
