@@ -51,6 +51,7 @@ if(isset($_POST['Decrease'])){
 if(isset($_POST['Reset'])){
 	$RstSql = "INSERT INTO counterlog.log (Counter) VALUES ('0')";
 	$conn->query($RstSql);
+	$curr = 0;
 	# echo "<br>Count reset to 0<br>";
 	}
 
