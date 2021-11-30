@@ -31,7 +31,7 @@ $result = $conn->query($SelSql);
 
 # Have to fetch the associations (fields) before you can use them
 $row = $result->fetch_assoc();
-$curr = $row["Counter"]; # Setting curr to most recient Counter value
+$curr = $row["counter"]; # Setting curr to most recient Counter value
 
 
 # This code block tells the program what to do when a button (Created below) is pressed
