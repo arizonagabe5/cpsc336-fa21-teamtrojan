@@ -1,9 +1,8 @@
 <?php
-# This code block connects to the database server
-$servername = "Right";
+$servername = "";
 $username = "";
 $password = "";
-$dbname = "counterlog";
+$dbname = "";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if($conn->connect_error){
